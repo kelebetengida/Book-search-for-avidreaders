@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Your Task",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +14,18 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "graphql": "^15.6.1",
+    "npm-graph": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelebetengida/MERN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kelebetengida/MERN/issues"
+  },
+  "homepage": "https://github.com/kelebetengida/MERN#readme"
 }
